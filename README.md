@@ -164,29 +164,39 @@ The discriminator deliberately has **no sigmoid layer** because the training obj
 
 An **8 × 8 grid of 64 generated faces** is saved every five epochs. The notebook creates a fresh noise sample for each grid, so the epoch images illustrate overall generation progress rather than changes to the exact same fixed latent vectors.
 
-### Task 4 — Results: Generated Images Across 50 Epochs
 
-The following sample grids were produced at five-epoch intervals during GAN training.
+## Task 4 — Results: Generated Images Across 50 Epochs
+
+The following sample grids were produced at five-epoch intervals during DCGAN training on the CelebA dataset. They illustrate the progression of generated facial images throughout the 50 training epochs.
+
+### Generated Images During Training
 
 | Epoch 5 | Epoch 10 |
 |:---:|:---:|
-| ![Generated faces at epoch 5](epoch_5.png) | ![Generated faces at epoch 10](epoch_10.png) |
+| ![Generated faces at epoch 5](Results/epoch_5.png) | ![Generated faces at epoch 10](Results/epoch_10.png) |
 
 | Epoch 15 | Epoch 20 |
 |:---:|:---:|
-| ![Generated faces at epoch 15](epoch_15.png) | ![Generated faces at epoch 20](epoch_20.png) |
+| ![Generated faces at epoch 15](Results/epoch_15.png) | ![Generated faces at epoch 20](Results/epoch_20.png) |
 
 | Epoch 25 | Epoch 30 |
 |:---:|:---:|
-| ![Generated faces at epoch 25](epoch_25.png) | ![Generated faces at epoch 30](epoch_30.png) |
+| ![Generated faces at epoch 25](Results/epoch_25.png) | ![Generated faces at epoch 30](Results/epoch_30.png) |
 
 | Epoch 35 | Epoch 40 |
 |:---:|:---:|
-| ![Generated faces at epoch 35](epoch_35.png) | ![Generated faces at epoch 40](epoch_40.png) |
+| ![Generated faces at epoch 35](Results/epoch_35.png) | ![Generated faces at epoch 40](Results/epoch_40.png) |
 
 | Epoch 45 | Epoch 50 |
 |:---:|:---:|
-| ![Generated faces at epoch 45](epoch_45.png) | ![Generated faces at epoch 50](epoch_50.png) |
+| ![Generated faces at epoch 45](Results/epoch_45.png) | ![Generated faces at epoch 50](Results/epoch_50.png) |
+
+### Training Progress Summary
+
+The generated samples provide a visual record of the generator's development throughout training. Comparing samples across epochs helps assess changes in image structure, facial features, and visual realism.
+
+These qualitative observations complement the generator and discriminator loss measurements and the preliminary Fréchet Inception Distance (FID) evaluation.
+
 
 ### GAN Evaluation
 
