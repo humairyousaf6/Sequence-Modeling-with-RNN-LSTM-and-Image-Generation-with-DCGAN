@@ -243,4 +243,8 @@ The notebook was written for **Google Colab**. A GPU runtime is recommended for 
 
 ---
 
-**Repository:** [humairyousaf6/Sequence-Modeling-with-RNN-and-LSTM](https://github.com/humairyousaf6/Sequence-Modeling-with-RNN-and-LSTM)
+
+---
+
+**Repository:** [humairyousaf6/Sequence-Modeling-with-RNN-LSTM-and-Image-Generation-with-DCGAN](https://github.com/humairyousaf6/Sequence-Modeling-with-RNN-LSTM-and-Image-Generation-with-DCGAN)
+
